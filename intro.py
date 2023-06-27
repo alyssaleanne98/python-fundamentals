@@ -4,9 +4,11 @@
 
 def say_state(self):
     print(f"My name is Alyssa") 
+#Def defines a function named "say_state" that takes on parameter "self". The presence of "self" suggests that this function is part of 
 
 # there is only one equality operator in Python ==
 # or - if the first operand is truthy, return it, otherwise return the second operand.
+#Python aims to have a clear and straighforward syntax, reducing unneccessary complexity and confusion 
 
 color = input('Enter "green", "yellow", "red"').lower()
 print(f"The user entered {color}")
@@ -39,3 +41,14 @@ while True:
 
     length = len(phrase)
     print("What you entered is", length, "characters")
+
+#Ranges - Basic Syntax 
+
+for even in range(2, 10, 2): 
+    print(even)
+
+#Ranges can also be used to create lists and tuples:
+
+nums = list(range(10))
+print(nums)
+odds = tuple(range(1, 10, 2))
